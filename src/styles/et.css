@@ -1,0 +1,44 @@
+
+.etContainer{
+    width: 100%;
+    height: auto;
+   margin-right: 40px;
+   display: flex;
+   flex-direction: column;
+   margin-bottom: 30px;
+}
+.etHeadline{
+    width: 100%;
+    height: auto;
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.ulImgContainer{
+    width: 100%;
+    margin-top: 15px;
+    display: flex;
+}
+
+.ulContainer{
+    width: 50%;
+    margin-left: 40px;
+}
+.ulContainer > ul{
+    margin-left: 40px;
+}
+.ulContainer > h1{
+    font-weight: 500;
+}
+.cameraImgContainer{
+    width: 50%;
+    margin-right: 40px;
+}
+
+.cameraImg{
+    width: 100%;
+    border-radius: 5px;
+    box-shadow: 0 10px 20px black;
+
+}

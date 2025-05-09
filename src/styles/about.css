@@ -1,0 +1,36 @@
+.aboutContainer{
+    width: 100%;
+    display: flex;
+    margin: 40px 40px;
+}
+
+.photographerImg{
+    width: 50%;
+    box-shadow: 0 5px 5px black;
+}
+.photographerImg > img{
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+}
+.aboutTxt{
+    width: 50%;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.aboutTxt > h1{
+    font-size: 50px;
+    font-weight: 500;
+    margin-top: -20px;
+}
+
+.aboutTxt > p{
+   text-align: justify;
+   padding-right: 20px;
+   font-size: 20px;
+}
+
+.aboutTxt > p > span{
+    font-weight: 500;
+}
